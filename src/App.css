@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  background: #1e293b;
+}
+
+.btn {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  border: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.todoApp {
+  max-width: 760px;
+  margin: 0px auto;
+  padding: 20px 20px;
+  background: #334155;
+  border-radius: 3px;
+}
+
+.todoForm {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todoInput {
+  flex: 1;
+  padding: 10px;
+}
+.addButton {
+  background: #64748b;
+  color: #fff;
+  padding: 0px 10px;
+}
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.todoItem {
+  padding: 10px 10px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoContent {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.todoMeta {
+  display: flex;
+  gap: 5px;
+}
+.editButton {
+  background: #10b981;
+  color: #fff;
+}
+.deleteButton {
+  background: #f43f5e;
+  color: #fff;
+}
